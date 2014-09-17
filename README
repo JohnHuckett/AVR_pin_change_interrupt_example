@@ -1,0 +1,5 @@
+This prorgram toggles LEDs connected to PORTB4 and PORTB5 when the state of PORTB0(PCINT0) or PORTB1(PCINT1) changes.
+
+There is no switch debouncing privided in this code.
+
+To upload to AVR: Edit makefile for AVR and programmer. Then enter 'make install'
